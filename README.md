@@ -5,6 +5,7 @@ The Socket Security CLI was created to enable integrations with other tools like
 ## Usage
 
 ```` shell
+
 socketcli [-h] [--api_token API_TOKEN] [--repo REPO] [--branch BRANCH] [--committer COMMITTER] [--pr_number PR_NUMBER] [--commit_message COMMIT_MESSAGE] [--default_branch DEFAULT_BRANCH]
                  [--target_path TARGET_PATH] [--mode {diff,new,license}] [--scm {api,github}] [--generate-license GENERATE_LICENSE]
 ````
